@@ -105,7 +105,6 @@ public class OnlineOrderE2E {
 		String shipping = driver.findElement(By.xpath("//td[@id='total_price_container']")).getText();
 		System.out.println(shipping);
 		System.out.println("Payment page should displayed");
-                System.out.println("Payment page should displayed");
 		Thread.sleep(1000);
 
 	}
